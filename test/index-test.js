@@ -4,7 +4,7 @@ describe('what-is-a-test', () => {
 
   describe('name', () => {
     it('returns "Susan"', () => {
-      expect(index.name).toEqual("Susan")
+      expect(index.name).toInclude("Susan")
     })
   })
 
